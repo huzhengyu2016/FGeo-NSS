@@ -1,0 +1,13 @@
+# Byte-compiled
+__pycache__
+
+# PyCharm
+.idea
+
+# packaging
+dist
+src/NSS.egg-info
+
+# data
+datasets
+outputs

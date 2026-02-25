@@ -1,0 +1,31 @@
+{
+  "data": {
+    "image_size": 256,
+    "patch_size": 16,
+    "max_len": 2048,
+    "repeat_rate": 2,
+    "random_seed": 0,
+    "train_val_test_split": "4:1:1",
+    "max_pid": 7000,
+    "multiprocess_rate": 0.9,
+    "timeout": 600,
+    "max_state_length": 800
+  },
+  "model": {
+    "d_image": 256,
+    "d_model": 256,
+    "M": 4,
+    "N": 3,
+    "p_drop": 0.5,
+    "h": 8
+  },
+  "training": {
+    "random_seed": 0,
+    "epochs": 10,
+    "lr": 5e-4,
+    "batch_size": 32
+  },
+  "test": {
+    "multiprocess_rate": 0.9
+  }
+}

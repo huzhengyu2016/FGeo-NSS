@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "NSS"
+version = "1.0.0"
+authors = [
+    { name = "Zhengyu Hu", email = "huzhengyu@shu.edu.cn" },
+]
+description = "A Hybrid Framework for Automated Geometry Solving by Integrating Formal Symbolic Systems and Deep Learning."
+readme = "README.md"
+requires-python = "==3.12.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch==2.10.0",
+    "tqdm==4.67.3",
+    "matplotlib==3.10.8",
+    "func-timeout==4.3.5",
+    "graphviz==0.21",
+    "opencv-python==4.13.0.92",
+    "sympy==1.14.0",
+    "psutil==7.2.2",
+]
+[project.urls]
+"Homepage" = "https://github.com/huzhengyu2016/FGeo-NSS"
+"Bug Tracker" = "https://github.com/huzhengyu2016/FGeo-NSS/issues"
